@@ -10,11 +10,11 @@ Dado que Booking **no proporciona una API pública**, se utilizó **Selenium** p
 
 | Archivo                                | Descripción                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
-| `Web_scraping_booking.ipynb`           | Notebook con el scraping, limpieza y análisis de datos.                    |
+| `Web_scraping_booking.ipynb`           | Notebook con el scraping, limpieza y análisis de datos. Pyhton                   |
 | `alojamientos_booking_limpio.csv`      | Dataset procesado con alojamientos en Madrid.                              |
-| `dashboard.py`                         | Script con posibles visualizaciones (ej. Streamlit o Matplotlib).          |
-| `Web Scraping Booking.pdf`             | Informe en PDF con el desarrollo del trabajo.                              |
-| `WEB SCRAPING CON SELENIUM EN BOOKING.COM .pdf` | Informe alternativo (probablemente versión más detallada).        |
+| `dashboard.py`                         | Dashboard interactivo de alojamientos en madrid          |
+| `Web Scraping Booking.pdf`             | Informe  con el desarrollo del trabajo.                              |
+| `WEB SCRAPING CON SELENIUM EN BOOKING.COM .pdf` | Presentación        |
 
 ---
 
@@ -47,7 +47,7 @@ Haz clic para verlo directamente desde GitHub:
 
 ## ⚙️ Requisitos técnicos
 
-- Python 3.x
+- Python 
 - Selenium
 - pandas, numpy
 - matplotlib, seaborn
@@ -55,8 +55,6 @@ Haz clic para verlo directamente desde GitHub:
 
 ---
 
-## 🎓 Proyecto académico
 
-Trabajo realizado para la Universidad Complutense de Madrid como parte del curso de Gestión de Bases de Datos y Técnicas de Scraping.
 
 ---
