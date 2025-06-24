@@ -1,61 +1,39 @@
-# 🏨 Web Scraping de alojamientos en Madrid (Booking.com)
+# Proyecto Web Scraping en Booking.com - Madrid
 
-Este proyecto desarrolla un proceso completo de **extracción, limpieza, análisis y visualización de datos** sobre alojamientos en Madrid usando técnicas de web scraping sobre la web de Booking.com.
-
-Dado que Booking **no proporciona una API pública**, se utilizó **Selenium** para automatizar la recolección de datos directamente desde el sitio web.
+Este proyecto desarrolla un proceso completo de obtención, limpieza y visualización de datos sobre alojamientos en Madrid utilizando Web Scraping con Selenium en Booking.com.
 
 ---
 
-## 🗂 Archivos del proyecto
+## Archivos del proyecto
 
-| Archivo                                | Descripción                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| `Web_scraping_booking.ipynb`           | Notebook con el scraping, limpieza y análisis de datos. Pyhton                   |
-| `alojamientos_booking_limpio.csv`      | Dataset procesado con alojamientos en Madrid.                              |
-| `dashboard.py`                         | Dashboard interactivo de alojamientos en madrid          |
-| `Web Scraping Booking.pdf`             | Informe  con el desarrollo del trabajo.                              |
-| `WEB SCRAPING CON SELENIUM EN BOOKING.COM .pdf` | Presentación        |
+- `Web_scraping_booking.ipynb` — Notebook con el análisis y limpieza de datos.
+- `dashboard.py` — Script para generar visualizaciones interactivas.
+- `alojamientos_booking_limpio.csv` — Dataset limpio listo para análisis.
+- `Informe_web_scraping_booking.pdf` — Informe completo del trabajo.
 
 ---
 
-## 📊 Temas desarrollados
+## Informe
 
-- Web Scraping con Selenium
-- Estructuración de datos desde HTML
-- Limpieza y preprocesado con pandas
-- Análisis exploratorio de datos (EDA)
-- Visualización con matplotlib/seaborn
-- Generación de dashboard o reporte
+El informe completo en PDF está disponible para consulta en línea para evitar problemas de descarga o visualización en GitHub.
 
----
+[📄 Ver Informe PDF online (Google Drive)](https://drive.google.com/file/d/ID_DE_TU_ARCHIVO/view?usp=sharing)
 
-## 🔍 Ver el Notebook online
+> *Sustituye `ID_DE_TU_ARCHIVO` por el ID real de tu archivo en Google Drive.*
 
-Puedes visualizar el notebook sin descargarlo usando [NBViewer](https://nbviewer.org/):
+Si prefieres descargarlo directamente desde GitHub, aquí tienes el enlace:
 
-👉 [Ver notebook en línea (NBViewer)](https://nbviewer.org/github/AlexandroBG/booking-madrid-webscraping/blob/main/Web_scraping_booking.ipynb)
+[📄 Descargar Informe PDF](https://github.com/AlexandroBG/booking-madrid-webscraping/blob/main/Informe_web_scraping_booking.pdf?raw=true)
 
 ---
 
-## 📄 Ver el informe en línea (PDF)
+## Instrucciones para ejecutar
 
-Haz clic para verlo directamente desde GitHub:
+Para ejecutar el dashboard o continuar el análisis, sigue estos pasos:
 
-📄 [Ver informe en PDF](https://github.com/AlexandroBG/booking-madrid-webscraping/blob/main/Web%20Scraping%20Booking.pdf?raw=true)
+```bash
+# Instalar dependencias
+pip install -r requirements.txt
 
-
----
-
-## ⚙️ Requisitos técnicos
-
-- Python 
-- Selenium
-- pandas, numpy
-- matplotlib, seaborn
-- ChromeDriver (descargado y compatible con tu navegador Chrome)
-
----
-
-
-
----
+# Ejecutar dashboard interactivo
+python dashboard.py
