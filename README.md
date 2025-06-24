@@ -41,7 +41,8 @@ Puedes visualizar el notebook sin descargarlo usando [NBViewer](https://nbviewer
 
 Haz clic para verlo directamente desde GitHub:
 
-👉 [Informe en PDF](https://github.com/AlexandroBG/booking-madrid-webscraping/blob/main/Web%20Scraping%20Booking.pdf)
+📄 [Ver informe en PDF](https://github.com/AlexandroBG/booking-madrid-webscraping/blob/main/Web%20Scraping%20Booking.pdf?raw=true)
+
 
 ---
 
